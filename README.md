@@ -1,4 +1,4 @@
-[Link to the full EDA SQL Project](https://github.com/AfeezTheAnalyst/Data-Cleaning-Project-with-SQL)
+🔗 [View the MySQL Project File](https://github.com/AfeezTheAnalyst/EDA_World_Layoffs_Data/blob/main/EDA_World_Layoffs_Data.sql)
 # 🌍 Global Layoffs Analysis (EDA with MySQL)
 
 ## 📌 Project Overview
