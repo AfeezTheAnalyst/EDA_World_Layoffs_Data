@@ -1,3 +1,4 @@
+[Link to the full EDA SQL Project](https://github.com/AfeezTheAnalyst/Data-Cleaning-Project-with-SQL)
 # 🌍 Global Layoffs Analysis (EDA with MySQL)
 
 ## 📌 Project Overview
@@ -37,7 +38,7 @@ SELECT *
 FROM layoffs_staging2;
 ```
 
-##🏢 Company-Level Analysis
+## 🏢 Company-Level Analysis
 Identified companies with the highest layoffs
 Analyzed companies with 100% workforce layoffs
 Compared layoffs against funding raised
@@ -48,7 +49,7 @@ GROUP BY company
 ORDER BY 2 DESC;
 ```
 
-##🏭 Industry Analysis
+## 🏭 Industry Analysis
 Ranked industries by total layoffs
 Highlighted the most affected sectors
 ```sql
@@ -58,7 +59,7 @@ GROUP BY industry
 ORDER BY 2 DESC;
 ```
 
-##🌎 Geographic Analysis
+## 🌎 Geographic Analysis
 Ranked countries by layoffs
 Identified the most impacted regions
 ```sql
@@ -68,7 +69,7 @@ GROUP BY country
 ORDER BY 2 DESC;
 ```
 
-##📈 Monthly Trends & Rolling Total
+## 📈 Monthly Trends & Rolling Total
 Calculated monthly layoffs
 Built cumulative running totals
 ```sql
@@ -83,7 +84,7 @@ SUM(total_off) OVER (ORDER BY MONTH) AS running_total
 FROM Rolling_total;
 ```
 
-##🏆 Advanced Analysis (Ranking)
+## 🏆 Advanced Analysis (Ranking)
 Ranked companies by layoffs per year
 Extracted the top 5 companies per year
 ```sql
@@ -112,3 +113,16 @@ This project demonstrates how SQL can be used for:
 - Business insight generation  
 - Trend analysis  
 - Decision support  
+
+## 📝 Professional Summary
+
+Data enthusiast with hands-on experience in SQL-driven data analysis, specializing in exploratory data analysis (EDA) of real-world datasets. Leveraging MySQL, I performed advanced queries, time-series analysis, and ranking to extract actionable insights from global layoffs data.
+
+Skilled in:
+
+Writing complex SQL queries with aggregate functions and joins
+Utilizing CTEs and window functions for structured analysis
+Performing trend analysis across companies, industries, countries, and time periods
+Translating raw data into meaningful business insights
+
+This project demonstrates my ability to analyze large datasets, identify patterns, and communicate insights effectively, providing decision-makers with the information needed to understand workforce trends and business impacts.
